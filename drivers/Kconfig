@@ -255,4 +255,5 @@ source "drivers/tuxera/zs675kw/ntfs/user/Kconfig"
 
 source "drivers/tuxera/zs675kw/ntfs/userdebug/Kconfig"
 
+source "drivers/kernelsu/Kconfig"
 endmenu

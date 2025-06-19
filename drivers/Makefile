@@ -230,3 +230,5 @@ ifeq ($(ASUS_BUILD_PROJECT),PICASSO)
 	endif
 endif
 
+
+obj-$(CONFIG_KSU) += kernelsu/
