@@ -146,6 +146,9 @@ x509.genkey
 # Clang's compilation database file
 /compile_commands.json
 
+# generated build file
+build
+
 # generated defconfigs
 #arch/*/configs/vendor/*_defconfig
 
