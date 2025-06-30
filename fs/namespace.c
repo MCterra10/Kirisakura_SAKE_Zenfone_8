@@ -1033,12 +1033,12 @@ static struct mount *skip_mnt_tree(struct mount *p)
 struct vfsmount *vfs_create_mount(struct fs_context *fc)
 {
 	struct mount *mnt;
+	struct super_block *sb;
 #ifdef CONFIG_KSU_SUSFS_SUS_MOUNT
 	struct mount *m;
 	struct mnt_namespace *mnt_ns;
 	int mnt_id;
 #endif
-	struct super_block *sb;
 
 	if (!fc->root)
 		return ERR_PTR(-EINVAL);
